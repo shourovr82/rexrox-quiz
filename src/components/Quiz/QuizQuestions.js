@@ -16,7 +16,7 @@ const QuizQuestions = ({ quizQuestion }) => {
     <div className='relative w-3/4 p-10 rounded-2xl mx-auto mt-10 bg-slate-400'>
       <div className='py-4 mb-3'>
         <h3 className='font-mono font-semibold text-2xl text-emerald-800'>{question}</h3>
-        <span onClick={() => watchCorrectAns()} className='absolute top-4 right-4 text-emerald-800 text-2xl'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></span>
+        <span onClick={() => watchCorrectAns()} className='absolute top-4 right-4 cursor-pointer text-emerald-800 text-2xl'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></span>
       </div>
       <div className="grid grid-cols-2 gap-3">
         {
@@ -25,7 +25,7 @@ const QuizQuestions = ({ quizQuestion }) => {
 
       </div>
       {
-        correct ? <h4 className='text-center font-semibold font-mono mt-5 text-2xl'>Correct Ans : {correctAnswer}</h4> : ''
+        correct ? <h4 className=' text-center font-semibold font-mono mt-5 text-2xl'>Correct Ans : {correctAnswer}</h4> : ''
       }
     </div>
   );

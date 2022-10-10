@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='hero-area' style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: `url("https://images.pexels.com/photos/2527248/pexels-photo-2527248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` }}>
+    <div style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: `url("https://images.pexels.com/photos/2527248/pexels-photo-2527248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` }}>
       <div className="bg-deep-purple-accent-700">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
@@ -51,17 +51,16 @@ const Hero = () => {
                     </svg>
                     <span className="relative">The</span>
                   </span>{' '}
-                  quick, brown fox jumps over a lazy dog
+                  Frontend Developers are in demand today.
                 </h2>
                 <p className="text-base text-indigo-100 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque rem aperiam, eaque ipsa quae.
+                  This tutorial on Frontend Developer Interview Questions will help you crack your next interview. This Frontend Developer Interview Questions tutorial has put together questions on various languages and frameworks used for frontend development.
                 </p>
               </div>
               <div>
                 <a
-                  href="/"
-                  className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
+                  href="#quiz-section"
+                  className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-white btn bg-emerald-800 border-0 hover:bg-emerald-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
                 >
                   Get started
                 </a>
