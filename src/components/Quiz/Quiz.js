@@ -8,7 +8,7 @@ const Quiz = () => {
   const quizesName = quizesData.name;
   // console.log(quizesData);
   return (
-    <div className='mt-10'>
+    <div className='mt-10 text-center '>
       <h2 className='text-3xl text-emerald-800 font-bold'> Questions Of {quizesName}</h2>
       {
         quizes.map(quizQuestion => <QuizQuestions key={quizQuestion.id} quizQuestion={quizQuestion}></QuizQuestions>)
