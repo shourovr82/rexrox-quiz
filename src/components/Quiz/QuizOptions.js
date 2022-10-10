@@ -1,15 +1,18 @@
 import React from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const QuizOptions = ({ option, id, quizQuestion }) => {
   const { correctAnswer } = quizQuestion;
   const handleCheckAnswere = (option) => {
     if (option === correctAnswer) {
       console.log('matched');
+      toast('Congratulations ! Your Ans is Correct')
     } else {
       console.log('not matched');
+      toast.warning('Wrong Answere !!')
     }
-
-
   }
 
   return (
@@ -18,7 +21,6 @@ const QuizOptions = ({ option, id, quizQuestion }) => {
         <input onChange={() => handleCheckAnswere(option)} type="radio" id={option} name={id} value={option} className='radio radio-primary' />
         <label className=' cursor-pointer	 font-semibold' htmlFor={option} >{option}</label>
       </div>
-
     </div>
   );
 };

@@ -4,7 +4,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 
 const Category = ({ qCategory }) => {
-  // console.log(qCategory);
   const { name, logo, total, id } = qCategory;
   return (
     <div className='w-full mx-auto p-2'>
