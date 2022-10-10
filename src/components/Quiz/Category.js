@@ -1,14 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleRight, faArrowRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-const Category = () => {
+
+
+const Category = ({ qCategory }) => {
+  console.log(qCategory);
+  const { name, logo, total } = qCategory;
   return (
     <div>
+      <div className="flex relative flex-col items-center  flex-1 p-4 dark:bg-emerald-900 rounded-lg shadow-2xl">
+        <div >
+          <img className='w-80' src={logo} alt="" />
+        </div>
+        <p className='absolute top-4  right-4 bg-red-900 px-2 rounded-md '>Total Quiz {total}</p>
+        <div className='flex justify-between items-center w-full mt-3 pt-3'>
+          <p className=" font-mono text-2xl  w-full">{name} Quiz...</p>
+          <button className="btn font-bold btn-wide  btn-primary rounded-md">Start Practice <FontAwesomeIcon className='ml-3' size="lg" icon={faArrowRight}></FontAwesomeIcon> </button>
+        </div>
 
-      <div className="flex flex-col items-center justify-center flex-1 p-4 pb-8 sm:p-8 lg:p-16 dark:bg-emerald-900 rounded-lg shadow-2xl">
-        <span className="text-sm">Basic</span>
-        <p className="text-5xl font-bold text-center">39€</p>
-        <p className="font-semibold text-center">Nemo deserunt possimus quo provident recusandae! Dolores qui architecto omnis pariatur eos voluptatibus sequi cum, non nesciunt aspernatur a?</p>
-        <button className="px-8 py-3 mt-6 text-lg font-semibold border rounded sm:mt-12 dark:border-gray-700">Sign up</button>
       </div>
     </div>
 
