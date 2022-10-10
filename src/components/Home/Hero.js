@@ -2,26 +2,74 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div>
-      <section className="dark:bg-gray-800 dark:text-gray-100">
-        <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:flex-row lg:justify-between">
-          <div className="flex items-center justify-center p-6 mt-8">
-            <img src="assets/svg/Business_SVG.svg" alt="" className="object-contain " />
-          </div>
-          <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-            <h1 className="text-2xl font-bold leading-none">Ac mattis
-              <span className="dark:text-cyan-400">senectus</span>erat pharetra
-            </h1>
-            <p className="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
-              <span className="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem </span>
-            </p>
-            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-              <a rel="noopener noreferrer" href="/" className="px-8 py-3 text-lg font-semibold rounded dark:bg-cyan-400 dark:text-gray-900">Suspendisse</a>
-              <a rel="noopener noreferrer" href="/" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Malesuada</a>
+    <div className='hero-area' style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundImage: `url("https://images.pexels.com/photos/2527248/pexels-photo-2527248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` }}>
+      <div className="bg-deep-purple-accent-700">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
+            <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
+              <a href="/" className="mb-6 sm:mx-auto">
+                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-teal-accent-400">
+                  <svg
+                    className="w-10 h-10 text-deep-purple-900"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+              </a>
+              <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+                  <span className="relative inline-block">
+                    <svg
+                      viewBox="0 0 52 24"
+                      fill="currentColor"
+                      className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-deep-purple-accent-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                    >
+                      <defs>
+                        <pattern
+                          id="700c93bf-0068-4e32-aafe-ef5b6a647708"
+                          x="0"
+                          y="0"
+                          width=".135"
+                          height=".30"
+                        >
+                          <circle cx="1" cy="1" r=".7" />
+                        </pattern>
+                      </defs>
+                      <rect
+                        fill="url(#700c93bf-0068-4e32-aafe-ef5b6a647708)"
+                        width="52"
+                        height="24"
+                      />
+                    </svg>
+                    <span className="relative">The</span>
+                  </span>{' '}
+                  quick, brown fox jumps over a lazy dog
+                </h2>
+                <p className="text-base text-indigo-100 md:text-lg">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque rem aperiam, eaque ipsa quae.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="/"
+                  className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-deep-purple-accent-100 focus:shadow-outline focus:outline-none"
+                >
+                  Get started
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
