@@ -1,9 +1,13 @@
 import React from 'react';
+import Quizzes from '../Quiz/Quizzes';
+import Hero from './Hero';
 
 const Home = () => {
+
   return (
-    <div>
-      <h2>This is Home</h2>
+    <div className='mt-10'>
+      {/* <Hero></Hero> */}
+      <Quizzes></Quizzes>
     </div>
   );
 };
