@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Category = ({ qCategory }) => {
   const { name, logo, total, id } = qCategory;
   return (
-    <div className='w-full mx-auto p-2'>
-      <div className="flex relative flex-col items-center  flex-1 p-4 dark:bg-emerald-900 rounded-lg shadow-2xl">
+    <div className='w-full  mx-auto p-2'>
+      <div className="flex  text-white relative flex-col items-center  flex-1 p-4 bg-emerald-900 rounded-lg shadow-lg shadow-slate-500">
         <div >
           <img className='w-80' src={logo} alt="" />
         </div>
