@@ -35,7 +35,3 @@ const Header = () => {
 export default Header;
 
 
-      // <li><Link to='/home'> Home</Link></li>
-      // <li><Link to='/quizes'> Quizes</Link></li>
-      // <li><Link to='/statistics'> Statistics</Link></li>
-      // <li><Link to='/blog'>Blogs</Link></li>

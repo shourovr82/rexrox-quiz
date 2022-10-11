@@ -7,12 +7,11 @@ const QuizOptions = ({ option, id, quizQuestion }) => {
   const { correctAnswer } = quizQuestion;
   const handleCheckAnswere = (option) => {
     if (option === correctAnswer) {
-      console.log('matched');
       toast('Congratulations ! Your Ans is Correct')
     } else {
-      console.log('not matched');
       toast.warning('Wrong Answere !!')
     }
+    console.log(option);
   }
 
   return (
