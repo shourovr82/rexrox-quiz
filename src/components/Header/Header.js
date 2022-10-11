@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <div className="navbar-center hidden lg:flex navbar-end">
           <ul className="menu menu-horizontal p-0">
-            <li><Link to='/home'> Home</Link></li>
-            <li><Link to='/quizes'> Quizes</Link></li>
-            <li><Link to='/statistics'> Statistics</Link></li>
-            <li><Link to='/blog'>Blogs</Link></li>
+            <li ><NavLink to='/home' className={({ isActive }) => isActive ? 'p-4  font-medium bg-opacity-90 bg-emerald-900 transition-colors duration-200 ' : 'p-4  font-medium   transition-colors duration-200 '}> Home</NavLink></li>
+            <li><NavLink to='/quizes' className={({ isActive }) => isActive ? 'p-4  font-medium bg-opacity-90 bg-emerald-900 transition-colors duration-200 ' : 'p-4  font-medium   transition-colors duration-200 '}> Quizes</NavLink></li>
+            <li><NavLink to='/statistics' className={({ isActive }) => isActive ? 'p-4  font-medium bg-opacity-90 bg-emerald-900 transition-colors duration-200 ' : 'p-4  font-medium   transition-colors duration-200 '}> Statistics</NavLink></li>
+            <li><NavLink to='/blog' className={({ isActive }) => isActive ? 'p-4  font-medium bg-opacity-90 bg-emerald-900 transition-colors duration-200 ' : 'p-4  font-medium   transition-colors duration-200 '}>Blogs</NavLink></li>
           </ul>
         </div>
       </div>

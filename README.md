@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# WELCOME TO OUR OFFICIAL WEBSITE ----REXROX || QUIZ----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website [Live Link ...](https://fascinating-brioche-578e23.netlify.app/)
+ ### or .. https://fascinating-brioche-578e23.netlify.app/ live link
 
-## Available Scripts
+## Details About Our Website_____
 
-In the project directory, you can run:
+# ![REXROX || QUIZ](https://i.ibb.co/1sFWjsS/image.png)
 
-### `npm start`
+> Details About Our Website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚩 How this Website was Built?
+- This Website is created by using REACT js.
+- Used Tailwind CSS frameworks for styles and used daisy ui component for better interface.
+- I have used React Toastify 
+- I have used React Router and Context API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚩 Whats is the benefit of Our  Website ?
 
-### `npm run eject`
+- Fully Responsive Website
+- This Website is for  Students who wants to learn about interview Questions 
+- There are the best online questions to prepare for Frontend developer interviews in 2022. 
+- You can select any topics to learn and it will redirect you the quiz and question section.
+- If your ans is correct or  wrong it will show instantly.
+- You can see the correct ans before select any option.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## `HERE YOU CAN SEE FULL HOMEPAGE..` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://i.ibb.co/tJW9DmL/screencapture-localhost-3000-2022-10-11-13-30-35.png" border="0"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌏 Browser Support
 
-### Analyzing the Bundle Size
+| <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
+| :---------: | :---------: | :---------: | :---------: | :---------: |
+| Yes | 11+ | Yes | Yes | Yes |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🔧 Pull Request Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+TOAST UI products are open source, so you can create a pull request(PR) after you fix issues. Run npm scripts and develop yourself with the following process.
 
-### Advanced Configuration
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Fork `main` branch into your personal repository. Clone it to local computer. Install node modules. Before starting development, you should check if there are any errors.
 
-### Deployment
+```sh
+$ git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-shourovr82.git
+$ npm install or npm i
+$ npm run build 
+$ npm start or npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Develop
+
+CREATED BY ON OF THE BEST NEWBIE WEB DEVELOPER SHAFIN RAHMAN
+ 
+
+ 
+
+## 📜 License
+
+This software is licensed under the [SHAFIN](https://github.com/shourovr82)

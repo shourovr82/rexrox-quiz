@@ -9,9 +9,8 @@ const QuizOptions = ({ option, id, quizQuestion }) => {
     if (option === correctAnswer) {
       toast('Congratulations ! Your Ans is Correct')
     } else {
-      toast.warning('Wrong Answere !!')
+      toast.warning('Wrong Answer !!')
     }
-    console.log(option);
   }
 
   return (
