@@ -15,7 +15,7 @@ const QuizOptions = ({ option, id, quizQuestion }) => {
 
   return (
     <div className='grid flex-grow h-32  hover:bg-slate-300 card bg-base-300 rounded-box place-items-center'>
-      <div className='flex items-center w-full p-3 gap-2 '>
+      <div className='flex items-center justify-center w-full p-3 gap-2 '>
         <input onChange={() => handleCheckAnswere(option)} type="radio" id={option} name={id} value={option} className='radio radio-primary' />
         <label className=' cursor-pointer	 font-semibold' htmlFor={option} >{option}</label>
       </div>
