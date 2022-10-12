@@ -1,4 +1,4 @@
-# WELCOME TO OUR OFFICIAL WEBSITE ----REXROX || QUIZ----
+# WELCOME TO MY EDUCATIONAL WEBSITE  __REXROX || QUIZ_
 
 # Website [Live Link ...](https://fascinating-brioche-578e23.netlify.app/)
  ### or .. https://fascinating-brioche-578e23.netlify.app/ live link
@@ -12,8 +12,11 @@
 ## 🚩 How this Website was Built?
 - This Website is created by using REACT js.
 - Used Tailwind CSS frameworks for styles and used daisy ui component for better interface.
+- Used React Router and Context API
 - I have used React Toastify 
-- I have used React Router and Context API
+- Used daisyUi components library
+- Some custom CSS
+- Website fully dynamically by API data  
 
 
 
@@ -21,21 +24,19 @@
 
 
 
-## 🚩 Whats is the benefit of Our  Website ?
+## 🚩 Whats is the benefit of  This  Website ?
 
 - Fully Responsive Website
 - This Website is for  Students who wants to learn about interview Questions 
 - There are the best online questions to prepare for Frontend developer interviews in 2022. 
 - You can select any topics to learn and it will redirect you the quiz and question section.
-- If your ans is correct or  wrong it will show instantly.
-- You can see the correct ans before select any option.
+- If your ans is correct or  wrong it will show instantly with beautifull toast.
+- You can see the correct ans after or  before select any option.
 
 
 ## `HERE YOU CAN SEE FULL HOMEPAGE..` 
 
 <img src="https://i.ibb.co/tJW9DmL/screencapture-localhost-3000-2022-10-11-13-30-35.png" border="0"></a>
-
-
 
 
 
@@ -64,13 +65,13 @@ $ npm start or npm run start
 
 
 
-### Develop
+### Developed
 
-CREATED BY ON OF THE BEST NEWBIE WEB DEVELOPER SHAFIN RAHMAN
+CREATED BY ONE OF THE BEST NEWBIE WEB DEVELOPER SHAFIN RAHMAN
  
 
  
 
-## 📜 License
+## 📜 Web App License
 
 This software is licensed under the [SHAFIN](https://github.com/shourovr82)

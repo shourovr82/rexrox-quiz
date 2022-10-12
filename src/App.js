@@ -16,10 +16,7 @@ function App() {
       loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
       errorElement: < ErrorPage ></ErrorPage >,
       children: [
-        {
-          path: '/',
-          element: <Home></Home>
-        },
+        { path: '/', element: <Home></Home> },
         {
           path: '/home',
           element: <Home></Home>

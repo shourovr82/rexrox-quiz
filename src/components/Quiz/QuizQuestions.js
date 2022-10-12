@@ -25,7 +25,7 @@ const QuizQuestions = ({ quizQuestion }) => {
 
       </div>
       {
-        correct ? <h4 className=' text-center font-semibold font-mono mt-5 text-2xl'>Correct Ans : {correctAnswer}</h4> : ''
+        correct ? <h4 className=' text-center font-semibold font-mono mt-5 text-2xl bg-emerald-800 text-white py-3 rounded-lg'>Correct Ans : {correctAnswer}</h4> : ''
       }
     </div>
   );

@@ -55,7 +55,7 @@ const Hero = () => {
                   Frontend Developers are in demand today.
                 </h2>
                 <p className="text-base text-indigo-100 md:text-lg">
-                  This tutorial on Frontend Developer Interview Questions will help you crack your next interview. This Frontend Developer Interview Questions tutorial has put together questions on various languages and frameworks used for frontend development.
+                  This  Quiz on Frontend Developer Interview Questions will help you crack your next interview. This Frontend Developer Interview Questions tutorial has put together questions on various languages and frameworks used for frontend development.
                 </p>
               </div>
               <div>
