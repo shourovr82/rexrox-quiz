@@ -6,6 +6,8 @@ import { CategoryContext } from '../../Layout/Main';
 const Statistics = () => {
 
   const totalQuiz = useContext(CategoryContext);
+  console.log(totalQuiz)
+
   return (
     <div >
       <div className=' mr-4 mt-10'>
@@ -14,7 +16,7 @@ const Statistics = () => {
           <AreaChart data={totalQuiz}>
             <defs>
               <linearGradient id='color' x1='0' y1="0" x2='0' y2='1'>
-                <stop offset="0%" stopColor="#065f46" stopOpacity={0.9} />
+                <stop offset="0%" stopColor="#065f46" stopOpacity={0.8} />
                 <stop offset="75%" stopColor="#065f46" stopOpacity={0.1} />
               </linearGradient>
             </defs>
